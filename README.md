@@ -1,1 +1,1 @@
-# starbucks
+# StarBucks WebApp Project
