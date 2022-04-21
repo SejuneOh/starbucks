@@ -1,4 +1,7 @@
 body {
   color: red;
   font-size: 100px;
+  /* 상속요소로 body 안에서 글꼴  먼저 적용*/
+  /* font-family 속성은 연속으로 사용하고 마지막에는 꼭 사용 할 수 있는 속성을 정해야한다. */
+  font-family: 'Nanum Gothic', sans-serif;
 } 
