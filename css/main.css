@@ -1,5 +1,45 @@
+/* Common */
 body {
+  /* font color 설정 */
+  color: #333;
+
+  /* font-size */
+  font-size: 16px;
+  font-weight: 400;
+
+  /* 16px * 1.4 */
+  line-height: 1.4;
+
   /* 상속요소로 body 안에서 글꼴  먼저 적용*/
   /* font-family 속성은 연속으로 사용하고 마지막에는 꼭 사용 할 수 있는 속성을 정해야한다. */
   font-family: 'Nanum Gothic', sans-serif;
-} 
+}
+
+/* img를 layout으로 추구하겠다 , inline의 baseline 및 공간을 사용하지 않겠다.*/
+img {
+  display: block;
+}
+
+/* Header */
+header {
+  background-color: royalblue;
+}
+
+/* 가운데 정렬을 하기 위해서 만든 개념 */
+header .inner {
+  width: 1100px;
+  height: 120px;
+  margin: 0 auto;
+  background-color: orange;
+  position: relative;
+}
+
+header .logo {
+  height: 75px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* innner 기준 왼쪽에 붙어있게다 배치를 명시해준다. */
+  left: 0;
+  margin: auto;
+}
