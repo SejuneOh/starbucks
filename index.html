@@ -23,34 +23,66 @@
   <!-- root경로의  favicon.ico  최상위 경로에 오픈하면 브라우저가 가져온다. -->
   <!-- png 파일 사용하기 -->
   <link rel="icon" href="/favicon.png" />
-  
+
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
-  
+
   <!-- Google Meterial Icon -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   <!-- style sheet -->
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/main.css" />
+
+  <!-- js -->
+  <script defer src="./js/main.js"></script>
   <title>Starbucks Coffe Korea</title>
 </head>
 
 <body>
-<!-- Sementic Tag Header -->
-<!-- 기능적 의미는 없고 tag의 의미는 있음 -->
-<header>
-  <div class="inner">
-    
-    <!-- Home로 가는 절대경로 지정 Goto index.html -->
-    <a href="/" class="logo">
-      <img src="/images/starbucks_logo.png" alt="STARBUCKS"/>
-    </a>
+  <!-- Sementic Tag Header -->
+  <!-- 기능적 의미는 없고 tag의 의미는 있음 -->
+  <header>
+    <div class="inner">
 
-  </div>
-</header>
+      <!-- Home로 가는 절대경로 지정 Goto index.html -->
+      <a href="/" class="logo">
+        <img src="/images/starbucks_logo.png" alt="STARBUCKS" />
+      </a>
+
+      <!-- Submenu -->
+      <div class="sub-menu">
+        <ul class="menu">
+          <li>
+            <a href="/signin">Sign In</a>
+          </li>
+          <!--
+          페이지 지정하기가 어려울 경우 #, javascript: void(0)을 사용해서 기능을 사용하지 않도록 한다 
+          # : 아무이동 없음, 단 페이지의 변화가 있을 수 있음.
+          javascript: void(0); : js에서 void(0) 아무것도 하지 않는 함수 호출
+         -->
+          <li>
+            <a href="#">My Starbucks</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Customer Service & Ideas</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Find a Store</a>
+          </li>
+        </ul>
+        <div class="search">
+          <input type="text">
+          <div class="material-icons">
+            search
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
 </body>
 
 </html>
