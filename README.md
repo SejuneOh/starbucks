@@ -28,5 +28,7 @@
 - Flex를 item 정렬하기
 - inner 클래스(html) 재 사용하기
 - DropMenu 만들기
+- DropDownMenu BEM
+- Side Menu 만들기(badge)
 
 ---
