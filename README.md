@@ -25,7 +25,6 @@
 [0425_Detail_md](./Working_list/0425.md)
 
 - Main Menu html 구성
-- Main Menu List 구성하기
 - Flex를 item 정렬하기
 - inner 클래스(html) 재 사용하기
 - DropMenu 만들기
