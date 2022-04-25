@@ -19,3 +19,14 @@
 - Sementic Header Tag로 로고 올리기 및 루트 페이지 설정
 
 ---
+
+### 0425
+
+[0425_Detail_md](./Working_list/0425.md)
+
+- Main Menu html 구성
+- Flex를 item 정렬하기
+- inner 클래스(html) 재 사용하기
+- DropMenu 만들기
+
+---
