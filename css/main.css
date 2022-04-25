@@ -13,6 +13,8 @@ body {
   /* 상속요소로 body 안에서 글꼴  먼저 적용*/
   /* font-family 속성은 연속으로 사용하고 마지막에는 꼭 사용 할 수 있는 속성을 정해야한다. */
   font-family: 'Nanum Gothic', sans-serif;
+
+  height: 3000px;
 }
 
 /* img를 layout으로 추구하겠다 , inline의 baseline 및 공간을 사용하지 않겠다.*/
@@ -35,6 +37,10 @@ a {
 header {
   background-color: #f5f6f0;
   border-bottom: 1px solid #c8c8c8;
+  /* width가 position absolute, fixed가 최소한으로 하려고한다. */
+  width: 100%;
+  position: fixed;
+  top: 0;
 
 }
 
@@ -236,4 +242,21 @@ header .main-menu .item .item__contents .contents__texture h4 {
 header .main-menu .item .item__contents .contents__texture p {
   color: #669900;
   margin: 4px 0 14px;
+}
+
+/* badges */
+
+header .badges {
+  position: absolute;
+  top: 132px;
+  right: 12px;
+
+}
+
+header .badges .badge{
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,.15);
+  cursor: pointer;
 }
