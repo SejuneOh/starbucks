@@ -30,5 +30,7 @@
 - DropMenu 만들기
 - DropDownMenu BEM
 - Side Menu 만들기(badge)
+  - lodash lib 사용하기
+  - 에니매이션 lib 사용하기(gsap)
 
 ---
