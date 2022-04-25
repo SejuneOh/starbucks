@@ -31,16 +31,18 @@ window.addEventListener('scroll', _.throttle(function () {
     // 배지 숨기기
     // badges.style.display = 'none';
     // gsap.to(요소, 지속시간, 옵션); 옵션은 대부분 객체를 사용한다.
-    gsap.to(badges, .6, {
-      opacitiy: 0,
+    gsap.to(badges, {
+      duration: .6,
+      opacity: 0,
       display: 'none'
     });
 
   } else {
     //배지 보이기
     // badges.style.display = 'block';
-    gsap.to(badges, .6, {
-      opacitiy: 1,
+    gsap.to(badges, {
+      opacity: 1,
+      duration: .6,
       display: 'block'
 
     });
